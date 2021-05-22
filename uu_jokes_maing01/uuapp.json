@@ -1,0 +1,65 @@
+{
+  "product": "uu_jokes_maing01",
+  "version": "0.1.0",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "----- VALUE REQUIRED -----",
+      "appDeploymentUri": null
+    }
+  },
+  "uu_jokes_maing01-hi": {
+    "componentList": [
+      {
+        "code": "UuJokes.Bricks.Video",
+        "name": "Video",
+        "tagList": [
+          "UuJokes",
+          "Bricks",
+          "Video"
+        ],
+        "docCode": "UuJokesBricksVideo",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuJokes.Bricks.Video />"
+      },
+      {
+        "code": "UuJokes.Bricks.VideoList",
+        "name": "VideoList",
+        "tagList": [
+          "UuJokes",
+          "Bricks",
+          "VideoList"
+        ],
+        "docCode": "UuJokesBricksVideoList",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuJokes.Bricks.VideoList />"
+      },
+      {
+        "code": "UuJokes.Bricks.VideoProvider",
+        "name": "VideoProvider",
+        "tagList": [
+          "UuJokes",
+          "Bricks",
+          "VideoProvider"
+        ],
+        "docCode": "UuJokesBricksVideoProvider",
+        "desc": "",
+        "icon": "",
+        "imageUri": "",
+        "uuEccReady": false,
+        "template": "<UuJokes.Bricks.VideoProvider />"
+      }
+    ]
+  },
+  "uu_jokes_maing01-server": {}
+}
